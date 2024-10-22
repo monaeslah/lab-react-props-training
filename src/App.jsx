@@ -2,6 +2,7 @@ import './App.css'
 import IdCard from './components/idCards'
 import dataList from './data/berlin.json'
 import Greeting from './components/Greeting.jsx'
+import Random from './components/Random.jsx'
 const getLangFromCountry = country => {
   switch (country) {
     case 'Germany':
@@ -44,6 +45,7 @@ function App () {
           </div>
         )
       })}
+      <Random min={1} max={3} />
     </div>
   )
 }
