@@ -75,8 +75,59 @@ code {
   width: auto;
 }
 
-/* Optional: Style the text to center vertically */
 .greetings-box p {
   margin: 0;
   padding: 0;
+}
+
+.random-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  width: auto;
+}
+
+.random-box p {
+  margin: 0;
+  padding: 0;
+}
+.credit-card {
+  width: 300px;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.credit-card-type {
+  text-align: right;
+}
+
+.credit-card-type img {
+  height: 30px;
+}
+
+.credit-card-number {
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 10px 0;
+}
+
+.credit-card-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.credit-card-info p {
+  margin: 0;
 }
