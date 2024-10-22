@@ -64,3 +64,19 @@ code {
 #id-card p {
   font-size: 16px;
 }
+.greetings-box {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  width: auto;
+}
+
+/* Optional: Style the text to center vertically */
+.greetings-box p {
+  margin: 0;
+  padding: 0;
+}
