@@ -4,7 +4,8 @@ const BoxColor = props => {
   const { r, g, b } = props
   const divStyle = {
     backgroundColor: `rgb(${r}, ${g}, ${b})`,
-    color: r + g + b > 382 ? 'black' : 'white', // Choose font color based on brightness
+    color: r + g + b > 382 ? 'black' : 'white',
+
     padding: '20px',
     margin: '10px',
     textAlign: 'center',
