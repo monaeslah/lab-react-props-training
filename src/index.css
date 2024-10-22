@@ -131,3 +131,7 @@ code {
 .credit-card-info p {
   margin: 0;
 }
+.rating {
+  font-size: 24px;
+  margin: 10px 0;
+}

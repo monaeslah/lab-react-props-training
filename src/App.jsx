@@ -5,6 +5,7 @@ import Greeting from './components/Greeting.jsx'
 import Random from './components/Random.jsx'
 import BoxColor from './components/BoxColor.jsx'
 import CreditCard from './components/CreditCard.jsx'
+import Rating from './components/Rating.jsx'
 const getLangFromCountry = country => {
   switch (country) {
     case 'Germany':
@@ -59,6 +60,7 @@ function App () {
         bgColor='#eeeeee'
         color='black'
       />
+      <Rating>5</Rating>
     </div>
   )
 }
